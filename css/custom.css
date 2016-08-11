@@ -31,6 +31,10 @@ footer {
 	background-color: #0d1119;
 }
 
+.overflow {
+	overflow: hidden;
+}
+
 /*========================= 
 		First sreen
 ===========================*/
@@ -550,11 +554,29 @@ footer {
     transition: background-color .2s ease-in-out;
 }
 
+.newsletter-btn:hover {
+	background-color: #afd735;
+}
+
 .newsletter-btn i {
     position: relative;
     top: 2px;
     left: 7px;
     display: inline-block;
+}
+
+.gbaciulis {
+	display: inline-block;
+	margin-top: 25px;
+	color: #a2ca28;
+	-webkit-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+    text-decoration: none;
+}
+
+.gbaciulis:hover {
+	color: #afd735;
+	text-decoration: none;
 }
 
 /*========================= 
@@ -650,6 +672,10 @@ footer {
     .date-cat-wrap {
 		padding: 20px;
 	}
+
+	.skew-overlay {
+		height: 110px;
+	}
 }
 
 
@@ -723,16 +749,24 @@ footer {
 	.social-icons {
 		margin-bottom: 20px;
 	}
+
+	.skew-overlay {
+		height: 90px;
+	}
 }
 
 @media (max-width: 767px) {
 	.nav-link {
-		line-height: 80px;
+		line-height: 50px;
 		margin: auto;
 		padding: 0 !important;
 	}
 
-	.nav-fix .navbar-toggleable-sm {
+	.nav-fix .nav-link {
+		line-height: 50px;
+	}
+
+	.navbar-toggleable-sm {
 		background-color: rgba(13,17,25,0.9);
 	}
 
@@ -768,6 +802,10 @@ footer {
 
 	.newsletter-btn {
 		width: 100%;
+	}
+
+	.skew-overlay {
+		height: 50px;
 	}
 
 }
