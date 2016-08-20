@@ -699,6 +699,10 @@ footer {
 		padding: 0 !important;
 	}
 
+	.fixed-navbar {
+		height: 80px;
+	}
+	
 	.feature {
     	margin-bottom: 50px;
 	}
