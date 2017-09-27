@@ -1,12 +1,18 @@
-# [Fitness: Bootstrap4 website template](https://gbaciulis.github.io/fitness-template/) 
+# [Fitness: single page template](https://jasonbaciulis.github.io/fitness-template/) 
 
-Fitness website template is a bright and vibrant template with large quality photos and fully responsive accross all devices.
+Fitness is a bright and vibrant template with large quality photos and fully responsive accross all devices. It is built on Bootstrap 4 framework.
 
 Here you can find the [original PSD template](http://blazrobar.com/free-psd-website-templates/fitness-free-photoshop-psd-template/) created by [Blaz Robar](http://blazrobar.com/).
 
-This project was developed with HTML5, CSS, JavaScript and Bootstrap 4.
+For scrolling effects I used [GreenSock](https://greensock.com/) ScrollTo plugin and Bootstrap Scrollspy plugin.
 
-## [VIEW LIVE DEMO](https://gbaciulis.github.io/fitness-template/)
+## This project utilizes the best performance optimization practises using [Webpack](https://webpack.js.org/):
 
-* Follow Gediminas : [Twitter](https://twitter.com/gbaciulis), [GitHub](https://github.com/gbaciulis).
-* Follow Blaz: [Twitter](https://twitter.com/blazrobar), [Facebook](https://www.facebook.com/blazrobar/).
+* All assets are minified, images and SVGs are optimized.
+* For faster page load render blocking CSS is inlined in HTML and loaded asynchronously using [loadCSS](https://github.com/filamentgroup/loadCSS) function and [Critical](https://github.com/addyosmani/critical).
+* Unused Bootstrap CSS is removed with [Purify CSS](https://github.com/webpack-contrib/purifycss-webpack).
+* All external scripts are loaded from CDNs and are either defered or loaded async.
+
+## [VIEW LIVE DEMO](https://jasonbaciulis.github.io/fitness-template/)
+
+* Follow Jason : [Twitter](https://twitter.com/jasonbaciulis), [Linkedin](https://lt.linkedin.com/in/jasonbaciulis).
